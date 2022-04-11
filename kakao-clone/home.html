@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <title>The Nico Times</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+      }
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+        font-size: 50px;
+      }
+
+      @media screen and (max-width: 700px) and (orientation: landscape) {
+        div {
+          background-color: tomato;
+        }
+      }
+      span {
+      }
+      @media screen and (orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>Plz flip your phone</span>
+    </div>
+  </body>
+</html>
