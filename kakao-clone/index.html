@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,24 +19,27 @@
       </div>
       <div class="status-bar__column">
         <span>11%</span>
-        <i class="fas fa-battery-half"></i>
-        <!-- TODO : Lightning Icon -->
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
-
-    <header class="welcome-haeder"></header>
-      <h1 class="welcome-header__title">Welcome to Kokoa clone</h1>
-      <p class="welcome-header__text">ID 있으면 입력해주세요! ㅎㅎ</p>
+    <header class="welcome-header">
+      <h2 class="welcome-header__title">Welcome to Kokoa clone</h2>
+      <p class="welcome-header__text">
+        ID 있으면 입력해주세요! ㅎㅎ 만약 ID가 없으시면 새로 만들어주면 좋을것
+        같은데 말이죠 ㅎㅎ
+      </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or Phoon number">
-      <input type="text" placeholder="password">
-      <input type="submit" value="Log in">
+    <!-- TODO Below this line -->
+    <form id="login-form" action="friends.html" method="get">
+      <input name="username" type="text" placeholder="Email or Phoon number" />
+      <input name="password" type="text" placeholder="password" />
+      <input type="submit" value="Log in" />
       <a href="#">Find kokoa clon password</a>
     </form>
     <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
+      src="https://kit.fontawesome.com/4623374485.js"
       crossorigin="anonymous"
     ></script>
   </body>

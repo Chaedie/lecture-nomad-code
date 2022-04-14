@@ -1,0 +1,40 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Open Sans", sans-serif;
+
+  height : 1000vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  /* background-color: tomato; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+/* .welcome-header__text {
+  color: grey;
+}
