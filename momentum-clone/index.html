@@ -8,30 +8,38 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log in" />
-    </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
+    <main class="main--opacity">
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="Log in" />
+      </form>
+      <h2 id="greeting" class="hidden"></h2>
+      <h3 id="date">00:00:00</h3>
+      <h3 id="clock">00:00:00</h3>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
 
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </main>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
+
     <!-- *script -->
     <script src="js/weather.js"></script>
     <script src="js/todo.js"></script>
